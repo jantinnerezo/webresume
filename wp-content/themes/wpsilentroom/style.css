@@ -1,0 +1,150 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://localhost/silentroom
+Author: SilentRoom
+Author URI: http://localhost/silentroom
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: silentroom
+*/
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#333;
+    height:100%;
+    
+}
+footer{
+    background-color:#000;
+    height:200px;
+}
+
+footer .col-md{
+    padding:20px;
+}
+
+.section-title{
+
+    background-color: #dc3545;
+}
+.section-title p{
+
+    text-transform:uppercase;
+    font-size:30px;
+    font-weight:bold;
+    color:#fff;
+    letter-spacing:0.2em;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#showcase{
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-image:url('../img/showcase.jpeg');
+    background-size:cover;
+    background-position:center;
+  
+    height:50vh;
+}
+#showcase img{
+    width: 500px;
+}
+#aboutus{
+    
+      
+        background-color:#333;
+      
+}
+
+#services{
+
+    background-color:#e9ecef;
+}
+
+#services .row{
+    padding: 0 50px 20px 50px;
+}
+
+#services .box{
+
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#services .box > p{
+    
+    font-size:100px;
+    text-align:center;
+    
+}
+
+#aboutus h1{
+
+    
+    text-transform:uppercase;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    color:#fff;
+    letter-spacing:0.2em;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+ 
+}
+
+#aboutus p{
+
+    color:#fff;
+    text-align:justify;
+    line-height:40px;
+    padding: 0 100px 0 100px;
+      
+}
+
+.navbar a{
+
+    color:#fff !important;
+    text-decoration:none !important;
+}
+
+.navbar a:hover{
+
+    transition:0.7s;
+    color:#dc3545 !important;
+}
+
+.navbar .menu-item{
+
+    margin-left:10px;
+}
+
+
+
+/****************** Media query ****************    *****/
+
+@media only screen and (max-width: 700px) {
+
+    #showcase img{
+        width: 250px;
+    }
+    #services .row{
+        padding: 0 10px 10px 10px;
+    }
+    #aboutus p{
+        padding: 0 20px 0 20px;      
+    }
+}
+
+
+
